@@ -8,7 +8,7 @@ function setup() {
 }
 function draw (){
 	ellipse(posX ,posY ,50,50);
-	posX = posX *10;
+	posX = posX + 1;
 	posY = posY + 2;
 	if (posX == windowWidth) {
 	 posX = 40;
