@@ -7,7 +7,7 @@ function setup() {
   background(255, 0, 200);
 }
 function draw (){
-	ellipse(posX ,posY ,50,50);
+	ellipse(posX ,posY , 25,25);
 	posX = posX + 1;
 	posY = posY + 2;
 	if (posX == windowWidth) {
